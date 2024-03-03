@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youtube</title>
+    <script src="send.js"></script>
+    <script src="gather.js"></script>
 </head>
 <body>
-    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9F1krai-sc2Z_XyXC",
+      });
+   })();
+</script>
+
+<button onclick="send()">Send Test Email</button>
+
 </body>
 </html>
