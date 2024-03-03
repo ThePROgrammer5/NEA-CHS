@@ -13,3 +13,14 @@ function send() {
   );
 }
 
+function createData() {
+  let ip = GeolocationPosition(Kermit);
+}
+
+function getIP() {
+  $.getJSON("https://api.ipify.org?format=json",
+            function (data) {
+ 
+                return data.ip;
+            })
+}
