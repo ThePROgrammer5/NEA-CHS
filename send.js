@@ -1,6 +1,7 @@
 const d = new Date();
 
 function prepare() {
+  confirm("ready?")
   createData();
   send();
   open();
