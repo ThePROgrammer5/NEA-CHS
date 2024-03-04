@@ -1,7 +1,7 @@
 const d = new Date();
 
 function prepare() {
-  alert("it works!");
+  confirm("it works!");
   createData();
   send();
   open();
