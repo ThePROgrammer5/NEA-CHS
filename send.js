@@ -1,6 +1,7 @@
 const d = new Date();
 
 window.onload = function() {
+  alert("it works!");
   send();
 };
 
