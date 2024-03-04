@@ -1,9 +1,9 @@
 const d = new Date();
 
-window.onload = function() {
+function prepare() {
   alert("it works!");
   send();
-};
+}
 
 var templateParams = {
   ip : toString(getIP()),
