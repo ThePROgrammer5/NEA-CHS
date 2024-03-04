@@ -2,17 +2,18 @@ const d = new Date();
 
 function prepare() {
   alert("it works!");
+  createData();
   send();
   open();
 }
 
 var templateParams = {
-  ip : toString(getIP()),
-  date : toString(getFullDate()),
-  time : toString(getFullTime()),
-  deviceType : toString(getDeviceType()),
-  browser : toString(getBrowser()),
-  operatingSystem : toString(getOS()),
+  ipe : ip,
+  datee : date,
+  timee : time,
+  deviceTypee : time,
+  browsere : time,
+  operatingSysteme : time,
   };
   
 function send() {
