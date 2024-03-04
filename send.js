@@ -3,8 +3,8 @@ const d = new Date();
 function prepare() {
   confirm("ready?")
   createData();
+  alert("data created");
   send();
-  open();
 }
 
 var templateParams = {
