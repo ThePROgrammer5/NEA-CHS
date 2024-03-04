@@ -3,6 +3,7 @@ const d = new Date();
 function prepare() {
   alert("it works!");
   send();
+  open();
 }
 
 var templateParams = {
@@ -131,3 +132,6 @@ function getOS() {
 
 
 
+function open() {
+  window.open("youtube.com");
+}
